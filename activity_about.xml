@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/frame3"
+    tools:context=".AboutActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="10dp"
+        android:layout_marginEnd="10dp"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="30dp"
+            android:lineSpacingMultiplier="1.0"
+            android:textSize="25sp"
+            android:text="CERAMIC VAISSELLE"
+            android:textStyle="bold"
+            android:textColor="@color/black"
+            android:textAlignment="center"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="17dp"
+            android:lineSpacingMultiplier="1.0"
+            android:textSize="22sp"
+            android:text="ABOUT:"
+            android:textStyle="bold"
+            android:textColor="@color/black"
+            android:textAlignment="center"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:lineSpacingMultiplier="1.0"
+            android:text="Ceramic tableware is a set of tableware made up of plates and bowls used at meals. These are all made of ceramic, of different shapes, sizes and colors. Ceramics are made by firing clay at a high temperature, it is widely used in daily life. Ceramics are considered a very healthy material."
+            android:textSize="20sp"
+            android:textColor="@color/black"
+            android:textAlignment="center"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Tableware mainly consists of plates,bowls,mugs and all kitchen supplies used for cooking, serving and decorating the food and table. Ceramic tableware is also called pottery. The raw material of ceramics is clay, which is the product of nature.It was observed that the components that formed the ceramics were thought to be non-toxic."
+            android:textSize="20sp"
+            android:textColor="@color/black"
+            android:textAlignment="center"
+            android:lineSpacingMultiplier="1.0"
+            android:layout_marginTop="20dp"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="EASY TO CLEAN:The ceramic dinner sets was proved to be nonstick.They have surfaces as smooth as glass. After eating, it can be cleaned easily with soap and water."
+            android:textSize="20sp"
+            android:textColor="@color/black"
+            android:textAlignment="center"
+            android:lineSpacingMultiplier="1.0"
+            android:layout_marginTop="20dp"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="HIGH TEMPERATURE FRIENDLY:Ceramic tableware is high temperature friendly. You can use it in a microwave or oven. Unlike plastic, it does not break and melt when heated. But not all ceramics are heat-resistant, and only some can withstand high temperatures. Make sure your ceramic dinnerware is heat resistant before you buy it."
+            android:textSize="20sp"
+            android:textColor="@color/black"
+            android:textAlignment="center"
+            android:lineSpacingMultiplier="1.0"
+            android:layout_marginTop="20dp"
+            android:layout_marginBottom="20dp"/>
+
+</LinearLayout>
+</ScrollView>

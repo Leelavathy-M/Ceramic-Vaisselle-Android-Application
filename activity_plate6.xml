@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/frame3"
+    tools:context=".Plate6Activity">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="PLATES"
+        android:textSize="35dp"
+        android:layout_marginTop="30dp"
+        android:gravity="center"
+        android:textStyle="bold"
+        android:textColor="@color/black"
+        tools:ignore="MissingConstraints" />
+
+    <ImageView
+        android:layout_width="319dp"
+        android:layout_height="259dp"
+        android:layout_marginTop="50dp"
+        android:layout_gravity="center"
+        android:src="@drawable/plate6"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="46dp"
+        tools:layout_editor_absoluteY="72dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:layout_marginStart="100dp"
+        android:text="DESCRIPTION:"
+        android:textColor="#000000"
+        android:textSize="20dp"
+        android:textStyle="bold"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:layout_marginStart="100dp"
+        android:text="Type: Dinner Plate"
+        android:textColor="#000000"
+        android:textSize="20dp"
+        android:textStyle="bold"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="32dp"
+        android:layout_marginStart="100dp"
+        android:text="Made of: Ceramic"
+        android:textColor="#000000"
+        android:textSize="20dp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Pack of 1"
+        android:textColor="#000000"
+        android:layout_marginStart="100dp"
+        android:textSize="20dp"
+        android:textStyle="bold"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="100dp"
+        android:text="Color: Pink with White"
+        android:textColor="#000000"
+        android:textSize="20dp"
+        android:textStyle="bold"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="100dp"
+        android:textColor="#000000"
+        android:textSize="20dp"
+        android:text="Rs.1399"
+        android:textStyle="bold"/>
+
+    <Button
+        android:id="@+id/btn_plate6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Buy"
+        android:backgroundTint="#F98B88"
+        android:textSize="30dp"
+        android:layout_marginStart="150dp"
+        android:layout_marginTop="20dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="140dp"
+        android:textColor="#000000"
+        android:textSize="18dp"
+        android:text="FREE DELIVERY"
+        android:textStyle="italic"/>
+</LinearLayout>
